@@ -29,51 +29,51 @@ MarkdownPad supports multiple Markdown processing engines, including standard Ma
 With a tabbed document interface, PDF export, a built-in image uploader, session management, spell check, auto-save, syntax highlighting and a built-in CSS management interface, there's no limit to what you can do with MarkdownPad.
 
 
-## ×¢ÊÍ
-<!-- ×¢ÊÍÄÚÈİ -->
+## æ³¨é‡Š
+<!-- æ³¨é‡Šå†…å®¹ -->
 
-# Ò»¼¶±êÌâ
-## ¶ş¼¶±êÌâ
-### Èı¼¶±êÌâ
-#### ËÄ¼¶±êÌâ
-##### Îå¼¶±êÌâ
-###### Áù¼¶±êÌâ
+# ä¸€çº§æ ‡é¢˜
+## äºŒçº§æ ‡é¢˜
+### ä¸‰çº§æ ‡é¢˜
+#### å››çº§æ ‡é¢˜
+##### äº”çº§æ ‡é¢˜
+###### å…­çº§æ ‡é¢˜
 
 * Candy.
 * Gum.
 * Booze.
 
-## ÎŞĞòÁĞ±í
-- ÎÄ±¾1
-- ÎÄ±¾2
-- ÎÄ±¾3
+## æ— åºåˆ—è¡¨
+- æ–‡æœ¬1
+- æ–‡æœ¬2
+- æ–‡æœ¬3
 
-## ÓĞĞòÁĞ±í
-1. ÎÄ±¾1
-2. ÎÄ±¾2
-3. ÎÄ±¾3
+## æœ‰åºåˆ—è¡¨
+1. æ–‡æœ¬1
+2. æ–‡æœ¬2
+3. æ–‡æœ¬3
 
-## Á´½ÓºÍÍ¼Æ¬
-[°Ù¶ÈLink](https://www.baidu.com/)
+## é“¾æ¥å’Œå›¾ç‰‡
+[ç™¾åº¦Link](https://www.baidu.com/)
 
 
 ![imag](http://upload-images.jianshu.io/upload_images/259-0ad0d0bfc1c608b6.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
-![imag](https://github.com/GavinHL/markdown_script/blob/master/sky_night.jpg)
+![imag](https://raw.githubusercontent.com/GavinHL/markdown_script/master/pic/sky_night.jpg)
 
 ![imag](https://raw.githubusercontent.com/GavinHL/markdown_script/master/pic/autumn.jpg)
 
-## ÒıÓÃ
->ÎÒÔ¸»¯ÉíÊ¯ÇÅ,ÊÜÄÇÎå°ÙÄê·ç´µ,Îå°ÙÄêÈÕÉ¹,Îå°ÙÄêÓêÁÜ,Ö»ÇóËı´ÓÇÅÉÏ¾­¹ı¡£
+## å¼•ç”¨
+>æˆ‘æ„¿åŒ–èº«çŸ³æ¡¥,å—é‚£äº”ç™¾å¹´é£å¹,äº”ç™¾å¹´æ—¥æ™’,äº”ç™¾å¹´é›¨æ·‹,åªæ±‚å¥¹ä»æ¡¥ä¸Šç»è¿‡ã€‚
 
-## °¸Àı£º**´ÖÌå**, *Ğ±Ìå*
-°¸Àı£º**´ÖÌå**, *Ğ±Ìå*
+## æ¡ˆä¾‹ï¼š**ç²—ä½“**, *æ–œä½“*
+æ¡ˆä¾‹ï¼š**ç²—ä½“**, *æ–œä½“*
 
-## ´úÂëÒıÓÃ
+## ä»£ç å¼•ç”¨
 `print "Hello World"`
 
-## ¶à¶Î´úÂëÒıÓÃ
+## å¤šæ®µä»£ç å¼•ç”¨
 ```python
 @requires_authorization
 class SomeClass:
@@ -84,16 +84,16 @@ if __name__ == '__main__':
     print 'hello world'
 ```
 
-## ±í¸ñ
+## è¡¨æ ¼
 
-| ×ó¶ÔÆë±êÌâ | ÓÒ¶ÔÆë±êÌâ | ¾ÓÖĞ¶ÔÆë±êÌâ |
+| å·¦å¯¹é½æ ‡é¢˜ | å³å¯¹é½æ ‡é¢˜ | å±…ä¸­å¯¹é½æ ‡é¢˜ |
 | :------| ------: | :------: |
-| ¶ÌÎÄ±¾ | ÖĞµÈÎÄ±¾ | ÉÔÎ¢³¤Ò»µãµÄÎÄ±¾ |
-| ÉÔÎ¢³¤Ò»µãµÄÎÄ±¾ | ¶ÌÎÄ±¾ | ÖĞµÈÎÄ±¾ |
+| çŸ­æ–‡æœ¬ | ä¸­ç­‰æ–‡æœ¬ | ç¨å¾®é•¿ä¸€ç‚¹çš„æ–‡æœ¬ |
+| ç¨å¾®é•¿ä¸€ç‚¹çš„æ–‡æœ¬ | çŸ­æ–‡æœ¬ | ä¸­ç­‰æ–‡æœ¬ |
 
 
-    °¢ÈøµÂ
-    àæÓõÏ·
+    é˜¿è¨å¾·
+    å™«åæˆ
 
 
 

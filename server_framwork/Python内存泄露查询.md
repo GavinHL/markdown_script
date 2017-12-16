@@ -1,5 +1,5 @@
 
-# Python内存泄露查询
+## Python内存泄露查询
 
 ```
 需求背景
@@ -27,5 +27,33 @@ Python利用引用计数进行垃圾回收，当引用为0时，对象会被虚�
 
 ####最后分享Python几个常用的内存调试工具：
 - [memory-tools](https://pypi.python.org/pypi/memory-tools/1.0.5)模块，summarize_objects()可以统计内存中各个class实例数量和所占内存量，并排序输出。可以通过查看对象数量和内存量来分析异常情况。
-- [objgraph](https://pypi.python.org/pypi/objgraph/3.1.2)模块，可以统计类型对应实例数量，统计类型增长情况，获得指定类型所有实例，**获得指定对象的引用链**
-- [memprof](https://pypi.python.org/pypi/memprof/0.3.4)可对Python代码逐行显示Mem增量，便于发现内存消耗高的代码块
+```
+Objects count 3,790
+Objects size 833,344
+
+      Size Count Type
+   476,864   296 <type 'dict'>
+    76,320   954 <type 'wrapper_descriptor'>
+    64,920   541 <type 'function'>
+    ...
+
+Count       Size Type
+  954     76,320 <type 'wrapper_descriptor'>
+  541     64,920 <type 'function'>
+  515     37,080 <type 'builtin_function_or_method'>
+  ...
+```
+- [objgraph](https://pypi.python.org/pypi/objgraph/3.1.2)模块，可以统计类型对应实例数量，统计类型增长情况，获得指定类型所有实例，**获得指定对象的引用链**![imag](https://raw.githubusercontent.com/GavinHL/markdown_script/master/pic/objgraph.png)
+- [memory_profiler](https://pypi.python.org/pypi/memory_profiler/0.50.0)可对Python代码逐行显示Mem增量，便于发现内存消耗高的代码块
+```
+Line #    Mem usage  Increment   Line Contents
+==============================================
+     3                           @profile
+     4      5.97 MB    0.00 MB   def my_func():
+     5     13.61 MB    7.64 MB       a = [1] * (10 ** 6)
+     6    166.20 MB  152.59 MB       b = [2] * (2 * 10 ** 7)
+     7     13.61 MB -152.59 MB       del b
+     8     13.61 MB    0.00 MB       return a
+```
+
+

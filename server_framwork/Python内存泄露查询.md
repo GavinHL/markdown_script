@@ -43,7 +43,7 @@ Count       Size Type
   515     37,080 <type 'builtin_function_or_method'>
   ...
 ```
-- [objgraph](https://pypi.python.org/pypi/objgraph/3.1.2)模块，可以统计类型对应实例数量，统计类型增长情况，获得指定类型所有实例，**获得指定对象的引用链**![imag](https://raw.githubusercontent.com/GavinHL/markdown_script/master/pic/objgraph.png)
+- [objgraph](https://pypi.python.org/pypi/objgraph/3.1.2)模块，可以统计类型对应实例数量，统计类型增长情况，获得指定类型所有实例，**获得指定对象的引用链**![imag](../pic/objgraph.png)
 - [memory_profiler](https://pypi.python.org/pypi/memory_profiler/0.50.0)可对Python代码逐行显示Mem增量，便于发现内存消耗高的代码块
 ```
 Line #    Mem usage  Increment   Line Contents
@@ -55,5 +55,3 @@ Line #    Mem usage  Increment   Line Contents
      7     13.61 MB -152.59 MB       del b
      8     13.61 MB    0.00 MB       return a
 ```
-
-

@@ -55,3 +55,6 @@ Line #    Mem usage  Increment   Line Contents
      7     13.61 MB -152.59 MB       del b
      8     13.61 MB    0.00 MB       return a
 ```
+
+### 参考资料
+[Python内存分析工具文章链接](http://yyc.solvcon.net/writing/2015/pymem_survey.html)

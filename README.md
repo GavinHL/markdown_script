@@ -1,5 +1,3 @@
 # markdown repository
 
-![imag](https://raw.githubusercontent.com/GavinHL/markdown_script/master/sky_night.jpg)
-
-![imag](https://raw.githubusercontent.com/GavinHL/markdown_script/master/pic/autumn.jpg)
+留下一些文字，技术、思考、随笔

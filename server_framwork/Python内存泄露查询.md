@@ -56,5 +56,12 @@ Line #    Mem usage  Increment   Line Contents
      8     13.61 MB    0.00 MB       return a
 ```
 
+- [TCMalloc](http://goog-perftools.sourceforge.net/doc/tcmalloc.html)
+Google内存工具，利用tcmalloc 来代替malloc calloc new等等，这样Google Heap Profiler就能知道内存的分配情况，从而分析出内存问题。这种机制可以监测所有程序语言的内存分配情况来分析内存问题。
+TCMalloc也包括一个堆检查器 和堆分析器。<br>
+[官网](http://goog-perftools.sourceforge.net/doc/tcmalloc.html)<br>
+[安装](http://www.cnblogs.com/my_life/articles/4661790.html)<br>
+[使用]( http://blog.csdn.net/jhzhou/article/details/7245992)
+
 ### 参考资料
 [Python内存分析工具文章链接](http://yyc.solvcon.net/writing/2015/pymem_survey.html)
